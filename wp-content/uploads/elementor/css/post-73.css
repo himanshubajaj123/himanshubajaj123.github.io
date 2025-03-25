@@ -1,0 +1,115 @@
+.elementor-kit-73{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-size:1px;--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-effe2df-font-size:1px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1050px;}.e-con{--container-max-width:1050px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-73 e-page-transition{background-color:#FFBC7D;}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog Image Styling */
+.blog-card img {
+    border-radius: 12px 12px 0 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.blog-card:hover img {
+    opacity: 0.85;
+}
+
+/* Blog Title Styling */
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222;
+    transition: color 0.3s ease-in-out;
+}
+
+.blog-card:hover .blog-title {
+    color: #ff5e00;
+}
+
+/* Blog Meta Info */
+.blog-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Button Styling */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5e00;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #e04e00;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    background-color: #fff;
+    padding: 12px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu a {
+    font-weight: 600;
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: #ff5e00;
+}
+
+/* Category Tabs */
+.category-tabs a {
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    color: #555;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.category-tabs a:hover {
+    background-color: #ff5e00;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .blog-card {
+        margin-bottom: 20px;
+    }
+    
+    .blog-title {
+        font-size: 1.2rem;
+    }
+    
+    .read-more {
+        font-size: 0.8rem;
+    }
+}/* End custom CSS */
